@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="conteiner">
+    <h1 class="header">Calculator from <span class="name">Andy😄</span></h1>
+    <div class="calculator">
+      <div class="calc_display">
+        <input disabled type="text" class="display_input" value="0">
+      </div>
+      <div class="display_buttons">
+        <button class="calc_button" data-clear="CE" type="button">CE</button>
+        <button class="calc_button" data-clear="C" type="button">C</button>
+        <button class="calc_button calc_button_operation divide" data-operation="/" type="button">/</button>
+        <button class="calc_button calc_button_operation multiply" data-operation="*" type="button">*</button>
+        <button class="calc_button calc_button_number" data-number="7" type="button">7</button>
+        <button class="calc_button calc_button_number" data-number="8" type="button">8</button>
+        <button class="calc_button calc_button_number" data-number="9" type="button">9</button>
+        <button class="calc_button calc_button_operation minus" data-operation="-" type="button">-</button>
+        <button class="calc_button calc_button_number" data-number="4" type="button">4</button>
+        <button class="calc_button calc_button_number" data-number="5" type="button">5</button>
+        <button class="calc_button calc_button_number" data-number="6" type="button">6</button>
+        <button class="calc_button calc_button_operation plus" data-operation="+" type="button">+</button>
+        <button class="calc_button calc_button_number" data-number="1"type="button">1</button>
+        <button class="calc_button calc_button_number" data-number="2" type="button">2</button>
+        <button class="calc_button calc_button_number" data-number="3" type="button">3</button>
+        <button class="button_result calc_button_operation" data-operation="=" type="button">=</button>
+        <button class="button_zero calc_button_number" data-number="0" type="button">0</button>
+        <button class="calc_button calc_button_point" data-dot="." type="button">.</button>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
